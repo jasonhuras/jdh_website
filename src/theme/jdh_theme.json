@@ -1,0 +1,37 @@
+{
+    "palette": {
+        "primary": {
+            "main": "#07498c"
+        },
+        "background": {
+            "default": "#101418"
+        },
+        "secondary": {
+            "main": "#0d1b2a",
+            "background2": "#0f1418"
+        }
+    },
+    "typography": {
+        "fontFamily": "Gilroy",
+        "h1": {
+            "fontSize": "1.0rem",
+            "color": "#B0B8C4"
+        },
+        "h2": {
+            "fontSize": "3.5.0rem",
+            "color": "#F3F6F9"
+        },
+        "h3": {
+            "fontSize": "1.5rem",
+            "color": "#F3F6F9"
+        },
+        "h4": {
+            "fontSize": "4.0rem",
+            "color": "#B0B8C4"
+        },
+        "body1": {
+            "fontSize": "1.5rem",
+            "color": "#B0B8C4"
+        }
+    }
+}
