@@ -1,13 +1,11 @@
-// LineChartComponent.tsx
 import React from 'react';
-import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 
 ChartJS.register(
     CategoryScale,
     LinearScale,
-    PointElement,
-    LineElement,
+    BarElement,
     Title,
     Tooltip,
     Legend
@@ -18,75 +16,73 @@ const chartData = {
     datasets: [
         {
             label: 'JDH AI Algorithm',
-            data: [1095.51,
-                1224.72,
-                1384.4,
-                1565.98,
-                1770.19,
-                2002.806,
-                2265.98,
-                2562.43,
-                2890.37,
-                3230.37,],
-            fill: false,
-            borderColor: '#5c8be9',
-            tension: 0.1
+            data: [
+                500.0,
+                1270.0,
+                2070.0,
+                2720.0,
+                3850.0,
+                4520.0,
+                5450.0,
+                6070.0,
+                7410.0,
+                7430.0,
+            ],
+            backgroundColor: '#07498c',
         },
 
         {
             label: 'S&P 500',
-            data: [1056.91,
-                1272.62,
-                1326.74,
-                1509.79,
-                1740.83,
-                2195.24,
-                1961.2,
-                2195.62,
-                2299.22,
-                2299.22,],
-            fill: false,
-            borderColor: '#ffffff',
-            tension: 0.1
+            data: [
+                100.0,
+                100.0,
+                230.0,
+                340.0,
+                410.0,
+                320.0,
+                750.0,
+                880.0,
+                790.0,
+                930.0,
+            ],
+            backgroundColor: '#ffffff',
         },
         {
             label: 'Schwab Mutual Fund',
-            data: [979.55,
-                1125.76,
-                1252.44,
-                1382.78,
-                1367.52,
-                1960.01,
-                1939.56,
-                1957.88,
-                2239.01,
-                2239.01],
-            fill: false,
-            borderColor: '#ababab',
-            tension: 0.1
+            data: [
+                110.0,
+                20.0,
+                400.0,
+                650.0,
+                450.0,
+                210.0,
+                870.0,
+                1130.0,
+                650.0,
+                860.0,
+            ],
+            backgroundColor: '#b5b5b5',
+        },
+        {
+            label: 'Vanguard 500 Fund',
+            data: [
+                100.0,
+                70.0,
+                220.0,
+                330.0,
+                400.0,
+                280.0,
+                750.0,
+                850.0,
+                740.0,
+                880.0,
+            ],
+            backgroundColor: '#545454',
         }
     ]
 };
 
 const options = {
-    scales: {
-        y: {
-            ticks: {
-                color: '#B0B8C4'
-            },
-            grid: {
-                color: 'rgba(255, 255, 255, 0.1)'
-            }
-        },
-        x: {
-            ticks: {
-                color: '#B0B8C4'
-            },
-            grid: {
-                color: 'rgba(255, 255, 255, 0.1)'
-            }
-        }
-    },
     plugins: {
         legend: {
             labels: {
@@ -101,7 +97,7 @@ const options = {
 const Graph = () => {
     return (
         <div style={{ backgroundColor: '#0f1418', height: '600px' }}>
-            <Line data={chartData} options={options} />
+            <Bar data={chartData} options={options} />
         </div>
     );
 };

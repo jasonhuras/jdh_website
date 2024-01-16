@@ -1,7 +1,7 @@
 // In src/layouts/HomeLayout.tsx
 import React from 'react';
 import Navbar from '../components/Navbar';
-import { Box, Container, Typography, Paper, Link } from '@mui/material';
+import { Box, Container, Typography, Paper, Button } from '@mui/material';
 import Graph from '../components/Graph';
 
 const HomeLayout = () => {
@@ -27,6 +27,9 @@ const HomeLayout = () => {
                     <Paper elevation={3}>
                         <Graph />
                     </Paper>
+                    <Typography variant="caption" >
+                        Cumulative Logarithmic returns each year.
+                    </Typography>
                 </Box>
                 <Box my={4}>
                     <Typography variant="h2" gutterBottom>Why I Need Your Money</Typography>
@@ -46,8 +49,10 @@ const HomeLayout = () => {
                         While we cannot promise guarenteed profits, we promise to provide complete official trade history from our broker, giving you full transparency on the trades we make with the mutual fund.
                     </Typography>
                 </Box>
-                <Box my={4}>
-                    <Typography align="center" variant="h2" gutterBottom><Link href="./invest">Invest Now</Link></Typography>
+                <Box my={4} display="flex" justifyContent="center" alignItems="center">
+                    <Button style={{ fontSize: '2.0rem' }} href="./invest">
+                        Invest Now
+                    </Button>
                 </Box>
             </Container>
         </>

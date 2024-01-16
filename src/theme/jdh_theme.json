@@ -36,6 +36,10 @@
         "body2": {
             "fontSize": "1.5rem",
             "color": "#ff0033"
+        },
+        "caption": {
+            "fontSize": "1.0rem",
+            "color": "#545454"
         }
     }
 }
