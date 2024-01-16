@@ -1,11 +1,17 @@
 import React from 'react';
 import Navbar from '../components/Navbar'; // Use your Navbar component
+import { Container, Box, Typography, Link } from '@mui/material';
 
 const ContactLayout = () => {
     return (
         <>
             <Navbar />
-            {/* Content specific to the Invest page */}
+            <Container maxWidth="xl">
+                <Box my={10}>
+                    <Typography align="center" variant="h2" gutterBottom>Email <Link>jason.dhuras@gmail.com</Link> for all inquiries</Typography>
+                </Box>
+                <Box my={80}></Box>
+            </Container>
         </>
     );
 };

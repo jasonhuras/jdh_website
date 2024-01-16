@@ -46,6 +46,9 @@ const HomeLayout = () => {
                         While we cannot promise guarenteed profits, we promise to provide complete official trade history from our broker, giving you full transparency on the trades we make with the mutual fund.
                     </Typography>
                 </Box>
+                <Box my={4}>
+                    <Typography align="center" variant="h2" gutterBottom><Link href="./invest">Invest Now</Link></Typography>
+                </Box>
             </Container>
         </>
     );
