@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../components/Navbar'; // Use your Navbar component
 import { Container, Box, Typography, Link } from '@mui/material';
 

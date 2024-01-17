@@ -1,5 +1,3 @@
-// In src/layouts/HomeLayout.tsx
-import React from 'react';
 import Navbar from '../components/Navbar';
 import { Box, Container, Typography, Paper, Button } from '@mui/material';
 import Graph from '../components/Graph';

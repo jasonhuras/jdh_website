@@ -1,7 +1,6 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import TradeHistoryTable from '../components/TradeHistoryTable';
-import { Box, Container, Typography, Paper, Button } from '@mui/material';
+import { Box, Container } from '@mui/material';
 
 const TradeLayout = () => {
     return (
