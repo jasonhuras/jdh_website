@@ -11,10 +11,10 @@ const Navbar = () => {
     };
 
     const pageLinks = {
-        'Home': '/',
-        'Invest': '/invest',
-        'Trade History': '/trade-history',
-        'Contact us': '/contact-us'
+        'Home': '#/',
+        'Invest': '#/invest',
+        'Trade History': '#/trade-history',
+        'Contact us': '#/contact-us'
     };
 
     const drawerList = () => (
@@ -51,7 +51,7 @@ const Navbar = () => {
                         >
                             <MenuIcon fontSize="large" style={{ 'color': '#B0B8C4' }} />
                         </IconButton>
-                        <img src="/logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: '1px solid #1f262e' }} />
+                        <img src="logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: '1px solid #1f262e' }} />
                     </Box>
                 </Grid>
                 <Grid item xs={6} md={6}>

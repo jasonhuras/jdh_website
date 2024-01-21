@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react';
 import { createTheme } from '@mui/material/styles';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import jdhThemeJson from './theme/jdh_theme.json';
 import HomeLayout from './layouts/HomeLayout';
 import InvestLayout from './layouts/InvestLayout';

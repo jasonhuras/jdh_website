@@ -13,7 +13,7 @@ const HomeLayout = () => {
                     </Typography>
                 </Box>
                 <Box my={4}>
-                    <img src="/diagram1.png" alt="image" width="100%" height="100%" />
+                    <img src="diagram1.png" alt="image" width="100%" height="100%" />
                 </Box>
                 <Box my={4}>
                     <Typography variant="h2" gutterBottom>Why Chose Us?</Typography>
@@ -48,7 +48,7 @@ const HomeLayout = () => {
                     </Typography>
                 </Box>
                 <Box my={4} display="flex" justifyContent="center" alignItems="center">
-                    <Button style={{ fontSize: '2.0rem' }} href="./invest">
+                    <Button style={{ fontSize: '2.0rem' }} href="#/invest">
                         Invest Now
                     </Button>
                 </Box>

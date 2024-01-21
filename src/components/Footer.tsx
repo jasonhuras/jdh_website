@@ -2,10 +2,10 @@ import { Box, Container, Grid, Link, Typography } from '@mui/material';
 
 const Footer = () => {
     const pageLinks = {
-        'Home': '/',
-        'Invest': '/invest',
-        'Trade History': '/trade-history',
-        'Contact us': '/contact-us'
+        'Home': '#/',
+        'Invest': '#/invest',
+        'Trade History': '#/trade-history',
+        'Contact us': '#/contact-us'
     };
 
     return (

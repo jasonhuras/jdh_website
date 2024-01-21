@@ -1,6 +1,7 @@
 {
   "name": "jdh_website",
   "private": true,
+  "homepage": "https://jasonhuras.github.io/jdh_website/#",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
