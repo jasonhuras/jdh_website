@@ -1,13 +1,19 @@
 import { useState } from 'react';
 import { Drawer, IconButton, List, ListItem, ListItemText, Typography, Box, Grid, Link } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import Login from './Login';
 
 const Navbar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
+    const navigate = useNavigate();
 
     const toggleDrawer = (open: boolean) => () => {
         setDrawerOpen(open);
+    };
+
+    const handleNavigation = () => {
+        navigate('#/'); // Navigate to the root
     };
 
     const pageLinks = {
@@ -51,7 +57,9 @@ const Navbar = () => {
                         >
                             <MenuIcon fontSize="large" style={{ 'color': '#B0B8C4' }} />
                         </IconButton>
-                        <img src="logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: '1px solid #1f262e' }} />
+                        <a href="#" style={{ height: '80px' }}>
+                            <img onClick={handleNavigation} src="logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: '1px solid #1f262e' }} />
+                        </a>
                     </Box>
                 </Grid>
                 <Grid item xs={6} md={6}>

@@ -9,7 +9,7 @@ const ContactLayout = () => {
                 <Box my={10}>
                     <Typography align="center" variant="h2" gutterBottom>Email <Link>jason.dhuras@gmail.com</Link> for all inquiries</Typography>
                 </Box>
-                <Box my={80}></Box>
+                <Box my={100}></Box>
             </Container>
         </>
     );
@@ -17,4 +17,3 @@ const ContactLayout = () => {
 
 export default ContactLayout;
 
-// Do the same for TradeHistoryLayout and ContactUsLayout

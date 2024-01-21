@@ -1,402 +1,470 @@
 [
     {
-        "openTime": "2023-10-30T00:27:22.196951027Z",
+        "openTime": "Mon Oct 30 00:27:22 2023",
         "openPrice": "1.21100",
         "closePrice": "1.21059",
-        "closeTime": "2023-10-30T00:29:54.488421190Z",
-        "profit": -0.0006,
-        "balance": 50334.2594
+        "closeTime": "Mon Oct 30 00:29:54 2023",
+        "profit": -0.0,
+        "perc": -0.0,
+        "balance": 50334.26
     },
     {
-        "openTime": "2023-10-30T00:32:09.662693093Z",
+        "openTime": "Mon Oct 30 00:32:09 2023",
         "openPrice": "1.21110",
         "closePrice": "1.21082",
-        "closeTime": "2023-10-30T00:34:00.601219348Z",
-        "profit": -0.0004,
-        "balance": 50334.259000000005
+        "closeTime": "Mon Oct 30 00:34:00 2023",
+        "profit": -0.0,
+        "perc": -0.0,
+        "balance": 50334.26
     },
     {
-        "openTime": "2023-10-30T00:34:07.661464687Z",
+        "openTime": "Mon Oct 30 00:34:07 2023",
         "openPrice": "1.21104",
         "closePrice": "1.21082",
-        "closeTime": "2023-10-30T00:34:54.199155920Z",
-        "profit": -0.0003,
-        "balance": 50334.258700000006
+        "closeTime": "Mon Oct 30 00:34:54 2023",
+        "profit": -0.0,
+        "perc": -0.0,
+        "balance": 50334.26
     },
     {
-        "openTime": "2023-10-30T00:35:02.154638160Z",
+        "openTime": "Mon Oct 30 00:35:02 2023",
         "openPrice": "1.21082",
         "closePrice": "1.21085",
-        "closeTime": "2023-10-30T00:35:44.920608547Z",
+        "closeTime": "Mon Oct 30 00:35:44 2023",
         "profit": 0.0,
-        "balance": 50334.258700000006
+        "perc": 0.0,
+        "balance": 50334.26
     },
     {
-        "openTime": "2023-10-30T00:38:16.844477661Z",
+        "openTime": "Mon Oct 30 00:38:16 2023",
         "openPrice": "1.21110",
         "closePrice": "1.21199",
-        "closeTime": "2023-10-30T04:01:14.745379317Z",
-        "profit": 777.153,
-        "balance": 51111.411700000004
+        "closeTime": "Mon Oct 30 04:01:14 2023",
+        "profit": 777.15,
+        "perc": 1.52,
+        "balance": 51111.41
     },
     {
-        "openTime": "2023-10-30T13:01:16.722777300Z",
+        "openTime": "Mon Oct 30 13:01:16 2023",
         "openPrice": "1.21452",
         "closePrice": "1.21717",
-        "closeTime": "2023-10-30T20:01:16.525081379Z",
-        "profit": 2341.1896,
-        "balance": 53452.6013
+        "closeTime": "Mon Oct 30 20:01:16 2023",
+        "profit": 2341.19,
+        "perc": 4.38,
+        "balance": 53452.6
     },
     {
-        "openTime": "2023-10-31T09:01:15.419246298Z",
+        "openTime": "Tue Oct 31 09:01:15 2023",
         "openPrice": "1.21710",
         "closePrice": "1.21412",
-        "closeTime": "2023-10-31T15:01:15.986572856Z",
-        "profit": -2785.1935,
-        "balance": 50667.4078
+        "closeTime": "Tue Oct 31 15:01:15 2023",
+        "profit": -2785.19,
+        "perc": -5.5,
+        "balance": 50667.41
     },
     {
-        "openTime": "2023-10-31T16:01:15.179958084Z",
+        "openTime": "Tue Oct 31 16:01:15 2023",
         "openPrice": "1.21360",
         "closePrice": "1.21494",
-        "closeTime": "2023-11-01T20:01:17.068771879Z",
-        "profit": -1185.4972,
-        "balance": 49481.9106
+        "closeTime": "Wed Nov  1 20:01:17 2023",
+        "profit": -1185.5,
+        "perc": -2.4,
+        "balance": 49481.91
     },
     {
-        "openTime": "2023-11-02T08:01:16.599987161Z",
+        "openTime": "Thu Nov  2 08:01:16 2023",
         "openPrice": "1.21714",
         "closePrice": "1.21984",
-        "closeTime": "2023-11-02T18:01:15.696267832Z",
-        "profit": 2290.1609,
-        "balance": 51772.071500000005
+        "closeTime": "Thu Nov  2 18:01:15 2023",
+        "profit": 2290.16,
+        "perc": 4.42,
+        "balance": 51772.07
     },
     {
-        "openTime": "2023-11-03T15:01:16.825891281Z",
+        "openTime": "Fri Nov  3 15:01:16 2023",
         "openPrice": "1.23428",
         "closePrice": "1.23975",
-        "closeTime": "2023-11-06T13:01:17.491356934Z",
-        "profit": -4848.6548,
-        "balance": 46923.4167
+        "closeTime": "Mon Nov  6 13:01:17 2023",
+        "profit": -4848.65,
+        "perc": -10.33,
+        "balance": 46923.42
     },
     {
-        "openTime": "2023-11-09T10:01:15.578900484Z",
+        "openTime": "Thu Nov  9 10:01:15 2023",
         "openPrice": "1.23025",
         "closePrice": "1.22620",
-        "closeTime": "2023-11-09T12:01:16.044554678Z",
-        "profit": 3240.8773,
-        "balance": 50164.294
+        "closeTime": "Thu Nov  9 12:01:16 2023",
+        "profit": 3240.88,
+        "perc": 6.46,
+        "balance": 50164.29
     },
     {
-        "openTime": "2023-11-10T12:01:14.419850219Z",
+        "openTime": "Fri Nov 10 12:01:14 2023",
         "openPrice": "1.22085",
         "closePrice": "1.22264",
-        "closeTime": "2023-11-13T01:01:16.475778636Z",
-        "profit": 1542.8542,
-        "balance": 51707.1482
+        "closeTime": "Mon Nov 13 01:01:16 2023",
+        "profit": 1542.85,
+        "perc": 2.98,
+        "balance": 51707.15
     },
     {
-        "openTime": "2023-11-13T13:01:18.625074472Z",
+        "openTime": "Mon Nov 13 13:01:18 2023",
         "openPrice": "1.22425",
         "closePrice": "1.22705",
-        "closeTime": "2023-11-14T06:01:16.471585346Z",
-        "profit": -2504.2597,
-        "balance": 49202.8885
+        "closeTime": "Tue Nov 14 06:01:16 2023",
+        "profit": -2504.26,
+        "perc": -5.09,
+        "balance": 49202.89
     },
     {
-        "openTime": "2023-11-14T12:01:16.307678601Z",
+        "openTime": "Tue Nov 14 12:01:16 2023",
         "openPrice": "1.22832",
         "closePrice": "1.24076",
-        "closeTime": "2023-11-14T14:01:15.191681686Z",
-        "profit": 10387.0794,
-        "balance": 59589.9679
+        "closeTime": "Tue Nov 14 14:01:15 2023",
+        "profit": 10387.08,
+        "perc": 17.43,
+        "balance": 59589.97
     },
     {
-        "openTime": "2023-11-15T14:01:16.011751319Z",
+        "openTime": "Wed Nov 15 14:01:16 2023",
         "openPrice": "1.24406",
         "closePrice": "1.24036",
-        "closeTime": "2023-11-16T11:01:15.741599040Z",
-        "profit": -3757.5332,
-        "balance": 55832.434700000005
+        "closeTime": "Thu Nov 16 11:01:15 2023",
+        "profit": -3757.53,
+        "perc": -6.73,
+        "balance": 55832.43
     },
     {
-        "openTime": "2023-11-17T09:01:16.981252014Z",
+        "openTime": "Fri Nov 17 09:01:16 2023",
         "openPrice": "1.23840",
         "closePrice": "1.24275",
-        "closeTime": "2023-11-17T12:01:16.051345845Z",
-        "profit": 4103.2352,
-        "balance": 59935.66990000001
+        "closeTime": "Fri Nov 17 12:01:16 2023",
+        "profit": 4103.24,
+        "perc": 6.85,
+        "balance": 59935.67
     },
     {
-        "openTime": "2023-11-21T11:01:15.381069005Z",
+        "openTime": "Tue Nov 21 11:01:15 2023",
         "openPrice": "1.25425",
         "closePrice": "1.25304",
-        "closeTime": "2023-11-22T08:01:19.598434984Z",
-        "profit": 1211.7939,
-        "balance": 61147.463800000005
+        "closeTime": "Wed Nov 22 08:01:19 2023",
+        "profit": 1211.79,
+        "perc": 1.98,
+        "balance": 61147.46
     },
     {
-        "openTime": "2023-11-23T10:01:16.418129275Z",
+        "openTime": "Thu Nov 23 10:01:16 2023",
         "openPrice": "1.25587",
         "closePrice": "1.25336",
-        "closeTime": "2023-11-24T02:01:15.910774444Z",
-        "profit": 2563.4837,
-        "balance": 63710.9475
+        "closeTime": "Fri Nov 24 02:01:15 2023",
+        "profit": 2563.48,
+        "perc": 4.02,
+        "balance": 63710.95
     },
     {
-        "openTime": "2023-11-24T03:01:19.256217691Z",
+        "openTime": "Fri Nov 24 03:01:19 2023",
         "openPrice": "1.25259",
         "closePrice": "1.25434",
-        "closeTime": "2023-11-24T06:01:17.965039229Z",
-        "profit": -1881.782,
-        "balance": 61829.1655
+        "closeTime": "Fri Nov 24 06:01:17 2023",
+        "profit": -1881.78,
+        "perc": -3.04,
+        "balance": 61829.17
     },
     {
-        "openTime": "2023-11-24T16:01:18.190568618Z",
+        "openTime": "Fri Nov 24 16:01:18 2023",
         "openPrice": "1.26117",
         "closePrice": "1.26042",
-        "closeTime": "2023-11-26T23:01:16.523611711Z",
-        "profit": 771.4924,
-        "balance": 62600.657900000006
+        "closeTime": "Sun Nov 26 23:01:16 2023",
+        "profit": 771.49,
+        "perc": 1.23,
+        "balance": 62600.66
     },
     {
-        "openTime": "2023-11-27T00:01:30.140065655Z",
+        "openTime": "Mon Nov 27 00:01:30 2023",
         "openPrice": "1.25998",
         "closePrice": "1.26018",
-        "closeTime": "2023-11-27T02:01:14.676632989Z",
-        "profit": -210.1381,
-        "balance": 62390.51980000001
+        "closeTime": "Mon Nov 27 02:01:14 2023",
+        "profit": -210.14,
+        "perc": -0.34,
+        "balance": 62390.52
     },
     {
-        "openTime": "2023-11-27T13:01:17.136305220Z",
+        "openTime": "Mon Nov 27 13:01:17 2023",
         "openPrice": "1.26358",
         "closePrice": "1.26295",
-        "closeTime": "2023-11-27T21:01:15.967577873Z",
-        "profit": 650.4303,
-        "balance": 63040.95010000001
+        "closeTime": "Mon Nov 27 21:01:15 2023",
+        "profit": 650.43,
+        "perc": 1.03,
+        "balance": 63040.95
     },
     {
-        "openTime": "2023-11-30T08:01:19.800972498Z",
+        "openTime": "Thu Nov 30 08:01:19 2023",
         "openPrice": "1.26967",
         "closePrice": "1.26190",
-        "closeTime": "2023-11-30T14:01:16.880552550Z",
-        "profit": 8102.1596,
-        "balance": 71143.10970000002
+        "closeTime": "Thu Nov 30 14:01:16 2023",
+        "profit": 8102.16,
+        "perc": 11.39,
+        "balance": 71143.11
     },
     {
-        "openTime": "2023-11-30T16:01:17.842542849Z",
+        "openTime": "Thu Nov 30 16:01:17 2023",
         "openPrice": "1.26587",
         "closePrice": "1.26415",
-        "closeTime": "2023-12-01T05:01:15.873184618Z",
-        "profit": 2021.4385,
-        "balance": 73164.54820000002
+        "closeTime": "Fri Dec  1 05:01:15 2023",
+        "profit": 2021.44,
+        "perc": 2.76,
+        "balance": 73164.55
     },
     {
-        "openTime": "2023-12-01T09:01:13.850801444Z",
+        "openTime": "Fri Dec  1 09:01:13 2023",
         "openPrice": "1.26569",
         "closePrice": "1.26789",
-        "closeTime": "2023-12-04T04:01:15.645988962Z",
-        "profit": -2687.7799,
-        "balance": 70476.76830000003
+        "closeTime": "Mon Dec  4 04:01:15 2023",
+        "profit": -2687.78,
+        "perc": -3.81,
+        "balance": 70476.77
     },
     {
-        "openTime": "2023-12-07T11:01:16.388650092Z",
+        "openTime": "Thu Dec  7 11:01:16 2023",
         "openPrice": "1.25916",
         "closePrice": "1.25611",
-        "closeTime": "2023-12-07T13:01:17.199721053Z",
-        "profit": 3576.6812,
-        "balance": 74053.44950000003
+        "closeTime": "Thu Dec  7 13:01:17 2023",
+        "profit": 3576.68,
+        "perc": 4.83,
+        "balance": 74053.45
     },
     {
-        "openTime": "2023-12-11T12:01:17.042744680Z",
+        "openTime": "Mon Dec 11 12:01:17 2023",
         "openPrice": "1.25878",
         "closePrice": "1.25559",
-        "closeTime": "2023-12-11T20:01:16.948203562Z",
-        "profit": 3920.6166,
-        "balance": 77974.06610000003
+        "closeTime": "Mon Dec 11 20:01:16 2023",
+        "profit": 3920.62,
+        "perc": 5.03,
+        "balance": 77974.07
     },
     {
-        "openTime": "2023-12-12T09:01:15.948364527Z",
+        "openTime": "Tue Dec 12 09:01:15 2023",
         "openPrice": "1.25451",
         "closePrice": "1.25577",
-        "closeTime": "2023-12-13T06:01:20.430253653Z",
-        "profit": 1642.1367,
-        "balance": 79616.20280000003
+        "closeTime": "Wed Dec 13 06:01:20 2023",
+        "profit": 1642.14,
+        "perc": 2.06,
+        "balance": 79616.2
     },
     {
-        "openTime": "2023-12-13T08:01:18.499740966Z",
+        "openTime": "Wed Dec 13 08:01:18 2023",
         "openPrice": "1.25214",
         "closePrice": "1.26252",
-        "closeTime": "2023-12-14T08:01:17.036118268Z",
-        "profit": 13678.1332,
-        "balance": 93294.33600000002
+        "closeTime": "Thu Dec 14 08:01:17 2023",
+        "profit": 13678.13,
+        "perc": 14.66,
+        "balance": 93294.34
     },
     {
-        "openTime": "2023-12-14T09:01:16.126106051Z",
+        "openTime": "Thu Dec 14 09:01:16 2023",
         "openPrice": "1.26422",
         "closePrice": "1.26636",
-        "closeTime": "2023-12-14T10:01:16.204158232Z",
-        "profit": 3302.0475,
-        "balance": 96596.38350000003
+        "closeTime": "Thu Dec 14 10:01:16 2023",
+        "profit": 3302.05,
+        "perc": 3.42,
+        "balance": 96596.38
     },
     {
-        "openTime": "2023-12-14T13:01:16.888865051Z",
+        "openTime": "Thu Dec 14 13:01:16 2023",
         "openPrice": "1.27092",
         "closePrice": "1.27507",
-        "closeTime": "2023-12-14T15:01:17.829857355Z",
-        "profit": -6658.488,
-        "balance": 89937.89550000003
+        "closeTime": "Thu Dec 14 15:01:17 2023",
+        "profit": -6658.49,
+        "perc": -7.4,
+        "balance": 89937.9
     },
     {
-        "openTime": "2023-12-15T01:28:46.029622481Z",
+        "openTime": "Fri Dec 15 01:28:46 2023",
         "openPrice": "1.27546",
         "closePrice": "1.27562",
-        "closeTime": "2023-12-15T01:47:37.817087211Z",
-        "profit": 0.0002,
-        "balance": 89937.89570000002
+        "closeTime": "Fri Dec 15 01:47:37 2023",
+        "profit": 0.0,
+        "perc": 0.0,
+        "balance": 89937.9
     },
     {
-        "openTime": "2023-12-15T01:49:53.102400019Z",
+        "openTime": "Fri Dec 15 01:49:53 2023",
         "openPrice": "1.27589",
         "closePrice": "1.27552",
-        "closeTime": "2023-12-15T01:51:10.440308210Z",
-        "profit": -0.0748,
-        "balance": 89937.82090000002
+        "closeTime": "Fri Dec 15 01:51:10 2023",
+        "profit": -0.07,
+        "perc": -0.0,
+        "balance": 89937.82
     },
     {
-        "openTime": "2023-12-15T01:54:12.374877951Z",
+        "openTime": "Fri Dec 15 01:54:12 2023",
         "openPrice": "1.27579",
         "closePrice": "1.27544",
-        "closeTime": "2023-12-15T01:55:08.182768665Z",
-        "profit": -0.0707,
-        "balance": 89937.75020000002
+        "closeTime": "Fri Dec 15 01:55:08 2023",
+        "profit": -0.07,
+        "perc": -0.0,
+        "balance": 89937.75
     },
     {
-        "openTime": "2023-12-15T01:55:08.884309162Z",
+        "openTime": "Fri Dec 15 01:55:08 2023",
         "openPrice": "1.27564",
         "closePrice": "1.27531",
-        "closeTime": "2023-12-15T01:56:09.216040191Z",
-        "profit": -0.0667,
-        "balance": 89937.68350000003
+        "closeTime": "Fri Dec 15 01:56:09 2023",
+        "profit": -0.07,
+        "perc": -0.0,
+        "balance": 89937.68
     },
     {
-        "openTime": "2023-12-15T01:56:09.937427010Z",
+        "openTime": "Fri Dec 15 01:56:09 2023",
         "openPrice": "1.27550",
         "closePrice": "1.27530",
-        "closeTime": "2023-12-15T01:56:26.925849522Z",
-        "profit": -0.0539,
-        "balance": 89937.62960000003
+        "closeTime": "Fri Dec 15 01:56:26 2023",
+        "profit": -0.05,
+        "perc": -0.0,
+        "balance": 89937.63
     },
     {
-        "openTime": "2023-12-15T01:57:05.747730427Z",
+        "openTime": "Fri Dec 15 01:57:05 2023",
         "openPrice": "1.27559",
         "closePrice": "1.27541",
-        "closeTime": "2023-12-15T01:57:32.581472765Z",
-        "profit": -0.0485,
-        "balance": 89937.58110000002
+        "closeTime": "Fri Dec 15 01:57:32 2023",
+        "profit": -0.05,
+        "perc": -0.0,
+        "balance": 89937.58
     },
     {
-        "openTime": "2023-12-15T09:01:15.150630141Z",
+        "openTime": "Fri Dec 15 09:01:15 2023",
         "openPrice": "1.27446",
         "closePrice": "1.26783",
-        "closeTime": "2023-12-15T21:32:12.465540351Z",
-        "profit": 9783.9552,
-        "balance": 99721.53630000002
+        "closeTime": "Fri Dec 15 21:32:12 2023",
+        "profit": 9783.96,
+        "perc": 9.81,
+        "balance": 99721.54
     },
     {
-        "openTime": "2023-12-18T10:01:18.238658252Z",
+        "openTime": "Mon Dec 18 10:01:18 2023",
         "openPrice": "1.26724",
         "closePrice": "1.26556",
-        "closeTime": "2023-12-19T01:01:20.734795642Z",
-        "profit": -2797.237,
-        "balance": 96924.29930000003
+        "closeTime": "Tue Dec 19 01:01:20 2023",
+        "profit": -2797.24,
+        "perc": -2.89,
+        "balance": 96924.3
     },
     {
-        "openTime": "2023-12-19T11:01:17.136573932Z",
+        "openTime": "Tue Dec 19 11:01:17 2023",
         "openPrice": "1.27012",
         "closePrice": "1.27375",
-        "closeTime": "2023-12-19T16:01:18.124978098Z",
-        "profit": -5828.3814,
-        "balance": 91095.91790000003
+        "closeTime": "Tue Dec 19 16:01:18 2023",
+        "profit": -5828.38,
+        "perc": -6.4,
+        "balance": 91095.92
     },
     {
-        "openTime": "2023-12-20T07:01:23.110957169Z",
+        "openTime": "Wed Dec 20 07:01:23 2023",
         "openPrice": "1.26710",
         "closePrice": "1.26854",
-        "closeTime": "2023-12-22T03:01:18.064902591Z",
-        "profit": 2153.2491,
-        "balance": 93249.16700000003
+        "closeTime": "Fri Dec 22 03:01:18 2023",
+        "profit": 2153.25,
+        "perc": 2.31,
+        "balance": 93249.17
     },
     {
-        "openTime": "2023-12-27T09:01:16.663985962Z",
+        "openTime": "Wed Dec 27 09:01:16 2023",
         "openPrice": "1.27064",
         "closePrice": "1.27994",
-        "closeTime": "2023-12-27T23:01:15.233956472Z",
-        "profit": 14248.7755,
-        "balance": 107497.94250000003
+        "closeTime": "Wed Dec 27 23:01:15 2023",
+        "profit": 14248.78,
+        "perc": 13.25,
+        "balance": 107497.94
     },
     {
-        "openTime": "2023-12-28T10:01:18.812954065Z",
+        "openTime": "Thu Dec 28 10:01:18 2023",
         "openPrice": "1.27975",
         "closePrice": "1.27387",
-        "closeTime": "2023-12-28T17:01:16.670595667Z",
-        "profit": -10413.762,
-        "balance": 97084.18050000003
+        "closeTime": "Thu Dec 28 17:01:16 2023",
+        "profit": -10413.76,
+        "perc": -10.73,
+        "balance": 97084.18
     },
     {
-        "openTime": "2023-12-29T06:01:20.576220733Z",
+        "openTime": "Fri Dec 29 06:01:20 2023",
         "openPrice": "1.27599",
         "closePrice": "1.27059",
-        "closeTime": "2023-12-29T10:01:18.614741900Z",
-        "profit": 8590.0983,
-        "balance": 105674.27880000003
+        "closeTime": "Fri Dec 29 10:01:18 2023",
+        "profit": 8590.1,
+        "perc": 8.13,
+        "balance": 105674.28
     },
     {
-        "openTime": "2023-12-29T16:01:27.985008052Z",
+        "openTime": "Fri Dec 29 16:01:27 2023",
         "openPrice": "1.27501",
         "closePrice": "1.26888",
-        "closeTime": "2024-01-02T11:01:18.840452624Z",
-        "profit": 10659.6565,
-        "balance": 116333.93530000003
+        "closeTime": "Tue Jan  2 11:01:18 2024",
+        "profit": 10659.66,
+        "perc": 9.16,
+        "balance": 116333.94
     },
     {
-        "openTime": "2024-01-03T11:01:20.951719475Z",
+        "openTime": "Wed Jan  3 11:01:20 2024",
         "openPrice": "1.26256",
         "closePrice": "1.26674",
-        "closeTime": "2024-01-04T06:01:22.527443346Z",
-        "profit": -8121.2188,
-        "balance": 108212.71650000002
+        "closeTime": "Thu Jan  4 06:01:22 2024",
+        "profit": -8121.22,
+        "perc": -7.5,
+        "balance": 108212.72
     },
     {
-        "openTime": "2024-01-04T14:01:15.996440364Z",
+        "openTime": "Thu Jan  4 14:01:15 2024",
         "openPrice": "1.26743",
         "closePrice": "1.26913",
-        "closeTime": "2024-01-05T01:01:20.309651582Z",
-        "profit": 3025.1506,
-        "balance": 111237.86710000002
+        "closeTime": "Fri Jan  5 01:01:20 2024",
+        "profit": 3025.15,
+        "perc": 2.72,
+        "balance": 111237.87
     },
     {
-        "openTime": "2024-01-05T08:01:25.078437982Z",
+        "openTime": "Fri Jan  5 08:01:25 2024",
         "openPrice": "1.26754",
         "closePrice": "1.26599",
-        "closeTime": "2024-01-05T14:01:21.550722763Z",
-        "profit": 2833.876,
-        "balance": 114071.74310000002
+        "closeTime": "Fri Jan  5 14:01:21 2024",
+        "profit": 2833.88,
+        "perc": 2.48,
+        "balance": 114071.74
     },
     {
-        "openTime": "2024-01-05T17:01:17.405067631Z",
+        "openTime": "Fri Jan  5 17:01:17 2024",
         "openPrice": "1.27354",
         "closePrice": "1.27050",
-        "closeTime": "2024-01-08T06:01:22.223028723Z",
-        "profit": 5692.3937,
-        "balance": 119764.13680000002
+        "closeTime": "Mon Jan  8 06:01:22 2024",
+        "profit": 5692.39,
+        "perc": 4.75,
+        "balance": 119764.14
     },
     {
-        "openTime": "2024-01-08T20:01:19.329956749Z",
+        "openTime": "Mon Jan  8 20:01:19 2024",
         "openPrice": "1.27565",
         "closePrice": "1.27372",
-        "closeTime": "2024-01-09T07:01:21.627151297Z",
-        "profit": 3780.2012,
-        "balance": 123544.33800000002
+        "closeTime": "Tue Jan  9 07:01:21 2024",
+        "profit": 3780.2,
+        "perc": 3.06,
+        "balance": 123544.34
+    },
+    {
+        "openTime": "Tue Jan 16 15:01:25 2024",
+        "openPrice": "1.26512",
+        "closePrice": "1.26366",
+        "closeTime": "Tue Jan 16 23:01:18 2024",
+        "profit": 2972.94,
+        "perc": 2.35,
+        "balance": 126517.28
+    },
+    {
+        "openTime": "Wed Jan 17 08:01:23 2024",
+        "openPrice": "1.26544",
+        "closePrice": "1.26775",
+        "closeTime": "Wed Jan 17 23:01:21 2024",
+        "profit": -4856.17,
+        "perc": -3.99,
+        "balance": 121661.11
     }
 ]

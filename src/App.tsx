@@ -7,6 +7,7 @@ import InvestLayout from './layouts/InvestLayout';
 import TradeLayout from './layouts/TradeLayout';
 import ContactLayout from './layouts/ContactLayout';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const jdhTheme = createTheme(jdhThemeJson);
@@ -14,6 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={jdhTheme}>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomeLayout />} />
           <Route path="/invest" element={<InvestLayout />} />
@@ -21,7 +23,7 @@ function App() {
           <Route path="/contact-us" element={<ContactLayout />} />
         </Routes>
       </Router>
-      <Footer></Footer>
+      <Footer />
     </ThemeProvider>
   );
 }
