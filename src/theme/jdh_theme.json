@@ -1,14 +1,16 @@
 {
     "palette": {
         "primary": {
-            "main": "#07498c"
+            "main": "#07498c",
+            "text": "#b0b8c4"
         },
         "background": {
-            "default": "#101418"
+            "default": "#101418",
+            "secondary": "#161c21",
+            "border": "#1f262e"
         },
         "secondary": {
-            "main": "#0d1b2a",
-            "background2": "#0f1418"
+            "main": "#0d1b2a"
         }
     },
     "typography": {
@@ -18,7 +20,7 @@
             "color": "#B0B8C4"
         },
         "h2": {
-            "fontSize": "3.5.0rem",
+            "fontSize": "1.5rem",
             "color": "#F3F6F9"
         },
         "h3": {
@@ -26,7 +28,7 @@
             "color": "#F3F6F9"
         },
         "h4": {
-            "fontSize": "4.0rem",
+            "fontSize": "3.0rem",
             "color": "#B0B8C4"
         },
         "body1": {

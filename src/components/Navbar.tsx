@@ -3,7 +3,7 @@ import { Drawer, IconButton, List, ListItem, ListItemText, Typography, Box, Grid
 import { useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import Login from './Login';
-
+import theme from '../theme/jdh_theme.json'
 const Navbar = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
     const navigate = useNavigate();
@@ -27,8 +27,8 @@ const Navbar = () => {
         <Box
             sx={{
                 width: 200,
-                bgcolor: 'secondary.background2',
-                borderBottom: '1px solid #1f262e'
+                bgcolor: 'background.secondary',
+                borderBottom: `1px solid ${theme.palette.background.border}`
             }}
             role="presentation"
             onClick={toggleDrawer(false)}
@@ -44,7 +44,7 @@ const Navbar = () => {
     );
 
     return (
-        <Box sx={{ bgcolor: 'secondary.background2', borderBottom: '1px solid #1f262e', position: 'sticky', top: 0, zIndex: 1100 }}>
+        <Box sx={{ bgcolor: 'background.secondary', borderBottom: `1px solid ${theme.palette.background.border}`, position: 'sticky', top: 0, zIndex: 1100 }}>
             <Grid container direction="row" justifyContent="space-between" alignItems="center">
                 <Grid item xs={6} md={6}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -55,10 +55,10 @@ const Navbar = () => {
                             onClick={toggleDrawer(true)}
                             sx={{ padding: '0 30px 0 30px' }}
                         >
-                            <MenuIcon fontSize="large" style={{ 'color': '#B0B8C4' }} />
+                            <MenuIcon fontSize="large" style={{ 'color': theme.palette.primary.text }} />
                         </IconButton>
                         <a href="#" style={{ height: '80px' }}>
-                            <img onClick={handleNavigation} src="logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: '1px solid #1f262e' }} />
+                            <img onClick={handleNavigation} src="logo_long.png" alt="image" width="120px" height="60px" style={{ padding: '10px', paddingLeft: '25px', borderLeft: `1px solid ${theme.palette.background.border}` }} />
                         </a>
                     </Box>
                 </Grid>
@@ -72,8 +72,8 @@ const Navbar = () => {
                 onClose={toggleDrawer(false)}
                 sx={{
                     '& .MuiDrawer-paper': {
-                        bgcolor: 'secondary.background2',
-                        color: '#B0B8C4'
+                        bgcolor: 'background.default',
+                        color: theme.palette.primary.text
                     }
                 }}
             >

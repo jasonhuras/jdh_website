@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, useTheme } from '@mui/material';
+import { lighten } from 'polished';
 import trades from '../trades/trades.json';
 
 interface Trade {
@@ -28,30 +29,33 @@ const TradeHistoryTable: React.FC = () => {
         setSortConfig({ column, direction: newDirection });
     };
     const cellStyle = {
-        fontSize: '1.0rem',
-        color: theme.typography.caption,
+        fontSize: '0.8rem',
+        // @ts-expect-error: using raw json
+        color: theme.palette.primary.text,
         background: theme.palette.background.default,
         borderColor: "#1f262e",
     };
     const getHeaderStyle = (columnName: keyof Trade) => {
         return {
             ...cellStyle,
-            backgroundColor: sortConfig.column === columnName ? 'red' : 'secondary.background2',
+            // @ts-expect-error: using raw json
+            backgroundColor: sortConfig.column === columnName ? lighten(0.05, theme.palette.background.secondary) : 'background.secondary',
             cursor: 'pointer'
         };
     };
     return (
-        <TableContainer component={Paper} elevation={3} sx={{ maxHeight: 750, overflow: 'auto' }}>
+        <TableContainer component={Paper} elevation={3} sx={{ maxHeight: 750, overflow: 'auto', bgcolor: 'background.default' }}>
             <Table aria-label="trade history table" stickyHeader>
                 <TableHead>
                     <TableRow>
                         <TableCell sx={getHeaderStyle('openTime')} onClick={() => handleSort('openTime')}>Open Time</TableCell>
-                        <TableCell align="center" sx={getHeaderStyle('openPrice')} onClick={() => handleSort('closeTime')}>Close Time</TableCell>
-                        <TableCell align="center" sx={getHeaderStyle('closePrice')} onClick={() => handleSort('openPrice')}>Open Price</TableCell>
-                        <TableCell align="center" sx={getHeaderStyle('closeTime')} onClick={() => handleSort('closePrice')}>Close Price</TableCell>
+                        <TableCell align="center" sx={getHeaderStyle('openPrice')} onClick={() => handleSort('openPrice')}>Open Price</TableCell>
+                        <TableCell align="center" sx={getHeaderStyle('closePrice')} onClick={() => handleSort('closePrice')}>Close Price</TableCell>
+                        <TableCell align="center" sx={getHeaderStyle('closeTime')} onClick={() => handleSort('closeTime')}>Close Time</TableCell>
                         <TableCell align="left" sx={getHeaderStyle('profit')} onClick={() => handleSort('profit')}>Profit</TableCell>
                         <TableCell align="right" sx={getHeaderStyle('balance')} onClick={() => handleSort('balance')}>Balance</TableCell>
                     </TableRow>
+
                 </TableHead>
                 <TableBody>
                     {sortedTrades.map((trade: Trade, index: number) => (
@@ -63,7 +67,7 @@ const TradeHistoryTable: React.FC = () => {
                             <TableCell align="center" sx={cellStyle}>{trade.openPrice}</TableCell>
                             <TableCell align="center" sx={cellStyle}>{trade.closePrice}</TableCell>
                             <TableCell align="left" sx={cellStyle}>
-                                {trade.profit.toFixed(2)} ({trade.perc.toFixed(2)}%)
+                                {"$ "}{trade.profit.toFixed(2)} ({trade.perc.toFixed(2)}%)
                             </TableCell>
                             <TableCell align="right" sx={cellStyle}>{trade.balance.toFixed(2)}</TableCell>
                         </TableRow>
