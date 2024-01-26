@@ -12,7 +12,7 @@
         }
     },
     "typography": {
-        "fontFamily": "Gilroy",
+        "fontFamily": "Gilroy-Light",
         "h1": {
             "fontSize": "1.0rem",
             "color": "#B0B8C4"
