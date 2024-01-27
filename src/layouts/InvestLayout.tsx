@@ -13,7 +13,9 @@ const InvestLayout = () => {
                     sx={{ padding: '5% 0 5% 0' }}
                 >
                     <Grid item md={6} xs={12}>
-                        <Typography align="center" variant="h2" gutterBottom>Email <Link>jason.dhuras@gmail.com</Link> </Typography>
+                        <Typography align="center" variant="h2" gutterBottom><Link href="#/contact-us">About Me</Link> </Typography>
+                        <Typography align="center" variant="h2" gutterBottom>Email: <Link>jason.dhuras@gmail.com</Link> </Typography>
+                        <Typography align="center" variant="h2" gutterBottom>Or Call: <Link>647-969-6257</Link> </Typography>
                         <Typography align="center" variant="body2" >
                             Only taking private investors
                         </Typography>
